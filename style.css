@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+	height: 600px;
+}
+.banner h1{
+	font-size: 60px;
+}
+.banner i{
+	padding-left: 20px;
+}
+.banner{
+    margin-top: -450px;
+    color: White;
+    margin-bottom: 200px;
+}
+.fa-facebook{
+    margin-left: 42.5%;
+}
+.fa{
+    margin-right: 30px;
+    font-size: xx-large;
+}
+.anhthe{
+    height: 504px;
+    width: 504px;
+	margin-top: 295px;
+	margin-left: 130px
+}
+p{
+    padding-top: 50px;
+}
+.kinhnghiem{
+    padding: 40px 0px;
+    background-color: darkgray;
+	height: 200px;
+	
+}
+i{
+    font-size: xx-large;
+}
+input{
+    width: 90%;
+}
+.button{
+    width: 100px;
+    margin-left: 30px;
+    display: block;
+    margin: 0 auto;
+    background-color: darkgrey;
+}
+.button:hover{
+    color: darkkhaki;
+}
+.hobby img{
+	height: 450px;
+	width: 450px;
+	color: black;
+}
+.all{
+	font-family:   "Helvetica Vn 45 Lt"
+}
+.chuchay {
+    display: table;
+    margin: 0 auto;
+    color: white;
+    font-size: 5em;
+    font-weight: 600;
+}
+.infor{
+	margin-top: 170px;
+	color: black;
+	
+}
+.lienhe{
+	color: black;
+	
+}
+.contact h1{
+	color: black;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    padding: 55px;
+    margin-top: 30px;
+}
+
+footer i {
+    color: white;
+}
+
+footer h5 {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+.scroll-down-icon {
+    display: table;
+    margin: 0 auto;
+}
+
+.scroll-down-animation {
+    color: aliceblue;
+    font-size: 40px;
+    display: inline-block;
+    padding-top: 20px;
+    transition: all 0.3 ease;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.note{
+	color: black;
+}
