@@ -46,11 +46,13 @@ input{
     width: 90%;
 }
 .button{
-    width: 100px;
+    width: 200px;
     margin-left: 30px;
     display: block;
     margin: 0 auto;
     background-color: darkgrey;
+	border-radius: 30px;
+	height: 40px;
 }
 .button:hover{
     color: darkkhaki;
