@@ -145,14 +145,42 @@
       </div>
       <div class="col-sm-4">
         <img src="boudhayan-bardhan-60tataLkJ0U-unsplash.jpg" alt="buc tranh 6">
+    </div>	
     </div>
-    </div>
+	  <section>
+		 <div class="video">
+			<h1 style="color: black"> Watching for fun </h1>
+	  	<video src="../../Downloads/Drone+Flies+Through+Jungle+Waterfall.mp4" control loop autoplay style="width:900px"></video>
+			<audio src="../../Downloads/drone_flies_through_jungle_waterfall_-7310023563874845982(1).mp3" loop autoplay></audio>
+		</div>
+	  </section>
     <div class="Contact" style="text-align: center; color: black;">
 		<br> <br>
         <h1>Contact</h1>
         <p2>Lorem Ipsum is simply dummy text of the printing</p2>
     </div>
-	   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+	   <button onclick="topFunction()" id="myBtn" title="Go to top">Up</button> 
+	  <script>
+		  //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+	  </script>
 </div>
 		  </section>
 	  <br>

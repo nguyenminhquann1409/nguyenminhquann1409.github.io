@@ -136,7 +136,7 @@ footer h5 {
   z-index: 99; 
   border: none;
   outline: none; 
-  background-color: #FFCE00;
+  background-color: #8AE143;
   color: white; 
   cursor: pointer;
   padding: 15px; 
@@ -145,5 +145,11 @@ footer h5 {
 }
 
 #myBtn:hover {
-  background-color: #555; /
+  background-color: #555; 
+}
+.video{
+	margin-left: 510px;
+}
+.video h1{
+	margin-left: 160px;
 }
