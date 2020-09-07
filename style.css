@@ -4,7 +4,7 @@
 }
 img{
     width: 100%;
-	height: 600px;
+	height: 700px;
 }
 .banner h1{
 	font-size: 60px;
@@ -35,8 +35,9 @@ p{
 }
 .kinhnghiem{
     padding: 40px 0px;
-    background-color: darkgray;
+    background-color: white;
 	height: 200px;
+	color: black;
 	
 }
 i{
@@ -127,6 +128,8 @@ footer h5 {
 }
 .note{
 	color: black;
+	background-color: darkgray;
+	height: 210px;
 }
 #myBtn {/* source from web but it not to work*/
   display: none; 
@@ -147,9 +150,9 @@ footer h5 {
 #myBtn:hover {
   background-color: #555; 
 }
-.video{
+.textwff{
 	margin-left: 540px;
 }
-.video h1{
-	margin-left: 160px;
+.editvideo{
+	margin-left: 325px;
 }
